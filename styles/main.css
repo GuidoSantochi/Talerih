@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+/* Imagen de fondo */
+body {
+  background-image: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.blueBackground {
+  background: rgb(0, 15, 35,0.65);
+}
+.content {
+  height: 964px;
+  width: 1200px;
+  margin: auto;
+  padding: auto;
+}
+/* Nav */
+.navBar {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 1200px;
+  margin: 0 0 1.5rem 0;
+}
+.titleBox {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 60px;
+  width: 180px;
+}
+.btnBox {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 70px;
+  width: 600px;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+.title {
+  color: rgb(255, 196, 0);
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.hire {
+  background-color: #26a699;
+  border-radius: 1.3rem;
+  width: 143px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.3rem;
+}
+.hire a {
+  text-decoration-color: yellow;
+  color: white;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: inherit;
+  font-size: 1.067rem;
+}
+.agreement a {
+  text-decoration: none;
+  color: white;
+}
+/* Text middle */
+.hero {
+  margin: 10.5rem 0 0 0;
+  color: white;
+  font-weight: bold;
+  height: 700px;
+  width: 1200px;
+}
+.content .hero h5 {
+  margin: 0 0 2rem 0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.title2{
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+.divider{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 0 1rem 0;
+}
+.divider span{
+  display: flex;
+  border-top: #F2BE22 solid;
+  border-width: 5px;
+  width: 50px;
+  height: 5px;
+}
+.hero p{
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  height: 56px;
+}
+.btnGrn {
+  background-color: #26a699;
+  color: white;
+  border-radius: 1.3rem;
+  height: 44px;
+  width: 149px;
+  border: none;
+}
+/* Companies */
+.moreInfo {
+  background-color: white;
+}
+.companies {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.companies span {
+  display: flex;
+  justify-content: center;
+  height: 95px;
+  width: 1180px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.carousel img {
+  margin: 0 2rem;
+}
+.teamHire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.teamTitle {
+  color: rgb(255, 196, 0);
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.teamSpan {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+/* Cards */
+.talents {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1200px;
+  height: 378px;
+}
+.cardTalents {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 400px;
+  margin: 25px 25px 55px;
+}
+.cardTalents h4 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 1rem 0;
+}
+.cardTalents span {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #5d7280;
+  text-align: center;
+  
+}
+.cardTalents svg{
+  height: 50px;
+  margin: 0 0 3rem 0;
+  color: #26a699;
+}
